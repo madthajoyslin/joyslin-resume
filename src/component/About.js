@@ -15,6 +15,7 @@ function About() {
           <img  src={person} width="100%" alt="person" class="photo joy" />
         </div>
       </section>
+   
     </>
   );
 }

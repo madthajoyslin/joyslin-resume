@@ -2,6 +2,15 @@ import "../css/Footer.css";
 export default function Footer() {
   return (
     <>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
       <footer className="foot">
         <div className="child">
           <div className="foot1">

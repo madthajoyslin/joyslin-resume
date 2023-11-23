@@ -27,7 +27,7 @@ function Navbar() {
             <Link to="/Education">Education</Link>
           )}
           {locpath === "/skills" ? "" : <Link to="/skills">Skills</Link>}
-          {locpath === "/Moreinfo" ? "" : <Link to="/Moreinfo">MoreInfo</Link>}
+          {/* {locpath === "/Moreinfo" ? "" : <Link to="/Moreinfo">MoreInfo</Link>} */}
           {locpath === "/Contact" ? "" : <Link to="/Contact">Contact</Link>}
         </div>
 

@@ -2,7 +2,7 @@ import loading from "../image/loading.jpg";
 function Loader() {
     return (
       <>
-      <img src={loading}/>
+      <img src={loading} width="40%"/>
       </>
     );
   }

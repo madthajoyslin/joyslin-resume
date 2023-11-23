@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../css/Contact.css";
 import Loader from "./Loader";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 function Contact() {
   const [loader, setloader] = useState();
@@ -40,7 +40,7 @@ function Contact() {
         <textarea name="message" />
         {!loader ? <input type="submit" value="Send" /> : <Loader />}
       </form>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }

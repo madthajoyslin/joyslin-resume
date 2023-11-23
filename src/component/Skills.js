@@ -18,7 +18,7 @@ function Skills() {
               type="text"
               placeholder="Enter your email"
             />
-            <button className="btn"> Sign in</button>
+            {/* <button className="btn"> Sign in</button> */}
           </div>
         </div>
       </section>

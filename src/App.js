@@ -6,6 +6,7 @@ import Home from './component/Home';
 import Education from './component/Education';
 import Skills from './component/Skills';
 import Contact from './component/Contact';
+import Footer from './component/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/Contact" element={<Contact/>}/>
      </Routes>
      
+     <Footer/>
      </BrowserRouter> 
     </div>
   );
