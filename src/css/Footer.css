@@ -1,0 +1,34 @@
+.foot{
+    width: 100%;
+    background-color: gray;
+    padding: 0px 20%;
+}
+
+.child {
+    width: 100%;
+    padding: 5px 0px;
+    /* background-color: white; */
+    margin-top: 20px;
+    display: flex;
+    justify-content:start;
+  }
+.foot1{
+width: 40%;
+padding: 20px 10px;
+background-color: gray;
+display: flex;
+flex-direction: column;
+row-gap: 10px;
+}
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+}
+@media (max-width: 600px) {
+    .foot{
+        padding: 0px 5%;}
+
+}
